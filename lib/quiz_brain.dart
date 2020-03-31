@@ -34,4 +34,11 @@ class QuizBrain {
     return _questionBank[_questionNumber].questionAnswer;
   }
 
+  int getQuestionnumber() {
+    return _questionNumber;
+  }
+  void resetQuestionnumber(){
+    _questionNumber = 0;
+  }
+
 }
